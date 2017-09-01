@@ -1,6 +1,6 @@
 /*
 COLORS:
-Brown:#B28B4
+Brown:#B28B60
 Light Brown:#FFDA9E
 Beige:#FFD084
 Blue:#3979B2
@@ -40,6 +40,20 @@ body {
     margin: 0;
     transform: translateY(50%);
 }
+
+#nav > ul > button {
+    min-width: 120px;
+    color: white;
+    background-color: #B28B60;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+}
+
+#nav > ul > button:hover {
+     background-color: #FFDA9E;
+}
+
 .menu {
     display: flex;
     background:#e2f0fd;
@@ -48,13 +62,58 @@ body {
     margin: 0;
 }
 
+#middle-wrapper-width {
+    display: flex;
+    font-family: 'lato', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 #middle-wrapper {
+    
+}
+
+.side-by-side {
     display: flex;
 }
 
-#main-content-wrapper {
-    background-color: greenyellow;
-    width: 80%;
+#main-content-wrapper .image-content {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.image-content > h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color: #FFD084;
+}
+
+.image-content > h4 > a {
+   color: #FFD084;
+}
+
+.image-content > h4 > a:hover {
+   color: #3979B2;
+}
+
+#main-content-wrapper article {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#main-content-wrapper article h2 {
+    text-align: center;
+}
+
+#main-content-wrapper article p {
+    max-height: 300px;
+    margin:0 auto;
 }
 
 #aside-content-wrapper {
