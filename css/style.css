@@ -11,6 +11,7 @@ Gray:#F8FCFF
 body {
    background-color: none;
    color: #3979B2;
+    font-family: 'lato', sans-serif;
 }
 
 #header {
@@ -31,7 +32,7 @@ body {
     width: 100%;
     background-color: #3979b2;
     min-height: 80px;
-    font-family: 'lato', sans-serif;
+/*    font-family: 'lato', sans-serif;*/
     height: auto;
 }
 #nav > ul {
@@ -64,7 +65,7 @@ body {
 
 #middle-wrapper-width {
     display: flex;
-    font-family: 'lato', sans-serif;
+/*    font-family: 'lato', sans-serif;*/
     max-width: 960px;
     margin: 0 auto;
 }
@@ -89,7 +90,7 @@ body {
 }
 
 .image-content > h4 {
-    font-family: 'lato', sans-serif;
+/*    font-family: 'lato', sans-serif;*/
     font-weight: 300;
     color: #FFD084;
 }
@@ -129,7 +130,7 @@ body {
 #aside-content-wrapper {
     background-color: white;
     width: 35%;
-    font-family: 'lato', sans-serif;
+/*    font-family: 'lato', sans-serif;*/
 }
 
 #aside-right {
@@ -166,13 +167,27 @@ padding-top: 15px;
 
 #favorite-sites {
     background-image: url(img/bg.jpeg);
+    border-top:5px #FFD084 solid;
+    border-bottom: 5px #3979B2 solid;
+}
+
+#favorite-sites ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px;
 }
 
 footer {
-    background-color: coral;
-    margin:0;
+    background-color: white;
+    text-align: center;
+/*    font-family: 'lato', sans-serif;*/
+    min-height: 100px;
+    
 }
 
 footer > h1 {
     margin: 0;
+    transform: translateY(50%);
 }
